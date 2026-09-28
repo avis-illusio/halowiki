@@ -1,0 +1,82 @@
+name: Deploy Commonplace to GitHub Pages
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run Commonplace
+        run: |
+          docker run -d \
+            --name commonplace \
+            -p 3000:3000 \
+            -v ${{ github.workspace }}:/repo \
+            -e GIT_REPO=/repo \
+            commonplacewiki/commonplace
+
+      - name: Wait for Commonplace to be ready
+        run: |
+          for i in $(seq 1 30); do
+            if curl -s http://localhost:3000 > /dev/null; then
+              echo "Commonplace is ready!"
+              exit 0
+            fi
+            echo "Waiting for Commonplace... ($i/30)"
+            sleep 2
+          done
+          echo "Commonplace failed to start."
+          docker logs commonplace
+          exit 1
+
+      - name: Download static site
+        run: |
+          mkdir -p ./dist
+          wget --recursive \
+               --no-parent \
+               --page-requisites \
+               --html-extension \
+               --convert-links \
+               --restrict-file-names=windows \
+               --domains localhost \
+               --no-check-certificate \
+               -e robots=off \
+               http://localhost:3000 \
+               -P ./dist
+          if [ -d "./dist/localhost:3000" ]; then
+            mv ./dist/localhost:3000/* ./dist/ && rmdir ./dist/localhost:3000
+          fi
+
+      - name: Stop Commonplace
+        run: docker stop commonplace && docker rm commonplace
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
