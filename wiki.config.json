@@ -1,0 +1,11 @@
+{
+  "title": "HaloWiki",
+  "tagline": "你将行往何处？",
+  "url": "https://avis-illusio.github.io",
+  "organizationName": "avis-illusio",
+  "projectName": "halowiki",
+  "copyright": "© 2026 avis-illusio",
+  "noindex": false,
+  "description": "Halo Wiki",
+  "gate": { "type": "none" }
+}

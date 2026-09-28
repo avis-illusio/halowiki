@@ -1,0 +1,114 @@
+{
+  "changeEvents": [
+    {
+      "id": "tutorial-basics/congratulations@f5bbf59a47d0c6ef13d09bfc441af387da25b926",
+      "type": "new",
+      "date": "2026-09-28T22:15:09+08:00",
+      "docKey": "tutorial-basics/congratulations",
+      "routePath": "/tutorial-basics/congratulations",
+      "section": "tutorial-basics",
+      "title": "Congratulations!"
+    },
+    {
+      "id": "tutorial-basics/create-a-blog-post@f5bbf59a47d0c6ef13d09bfc441af387da25b926",
+      "type": "new",
+      "date": "2026-09-28T22:15:09+08:00",
+      "docKey": "tutorial-basics/create-a-blog-post",
+      "routePath": "/tutorial-basics/create-a-blog-post",
+      "section": "tutorial-basics",
+      "title": "Create a Blog Post"
+    },
+    {
+      "id": "tutorial-basics/create-a-document@f5bbf59a47d0c6ef13d09bfc441af387da25b926",
+      "type": "new",
+      "date": "2026-09-28T22:15:09+08:00",
+      "docKey": "tutorial-basics/create-a-document",
+      "routePath": "/tutorial-basics/create-a-document",
+      "section": "tutorial-basics",
+      "title": "Create a Document"
+    },
+    {
+      "id": "tutorial-basics/create-a-page@f5bbf59a47d0c6ef13d09bfc441af387da25b926",
+      "type": "new",
+      "date": "2026-09-28T22:15:09+08:00",
+      "docKey": "tutorial-basics/create-a-page",
+      "routePath": "/tutorial-basics/create-a-page",
+      "section": "tutorial-basics",
+      "title": "Create a Page"
+    },
+    {
+      "id": "tutorial-basics/deploy-your-site@f5bbf59a47d0c6ef13d09bfc441af387da25b926",
+      "type": "new",
+      "date": "2026-09-28T22:15:09+08:00",
+      "docKey": "tutorial-basics/deploy-your-site",
+      "routePath": "/tutorial-basics/deploy-your-site",
+      "section": "tutorial-basics",
+      "title": "Deploy your site"
+    },
+    {
+      "id": "tutorial-basics/markdown-features@f5bbf59a47d0c6ef13d09bfc441af387da25b926",
+      "type": "new",
+      "date": "2026-09-28T22:15:09+08:00",
+      "docKey": "tutorial-basics/markdown-features",
+      "routePath": "/tutorial-basics/markdown-features",
+      "section": "tutorial-basics",
+      "title": "Markdown Features"
+    },
+    {
+      "id": "tutorial-extras/manage-docs-versions@f5bbf59a47d0c6ef13d09bfc441af387da25b926",
+      "type": "new",
+      "date": "2026-09-28T22:15:09+08:00",
+      "docKey": "tutorial-extras/manage-docs-versions",
+      "routePath": "/tutorial-extras/manage-docs-versions",
+      "section": "tutorial-extras",
+      "title": "Manage Docs Versions"
+    },
+    {
+      "id": "tutorial-extras/translate-your-site@f5bbf59a47d0c6ef13d09bfc441af387da25b926",
+      "type": "new",
+      "date": "2026-09-28T22:15:09+08:00",
+      "docKey": "tutorial-extras/translate-your-site",
+      "routePath": "/tutorial-extras/translate-your-site",
+      "section": "tutorial-extras",
+      "title": "Translate your site"
+    }
+  ],
+  "pageDates": {
+    "intro": {
+      "updated": "2026-09-28T22:15:09+08:00",
+      "created": "2026-09-28T22:15:09+08:00"
+    },
+    "tutorial-basics/congratulations": {
+      "updated": "2026-09-28T22:15:09+08:00",
+      "created": "2026-09-28T22:15:09+08:00"
+    },
+    "tutorial-basics/create-a-blog-post": {
+      "updated": "2026-09-28T22:15:09+08:00",
+      "created": "2026-09-28T22:15:09+08:00"
+    },
+    "tutorial-basics/create-a-document": {
+      "updated": "2026-09-28T22:15:09+08:00",
+      "created": "2026-09-28T22:15:09+08:00"
+    },
+    "tutorial-basics/create-a-page": {
+      "updated": "2026-09-28T22:15:09+08:00",
+      "created": "2026-09-28T22:15:09+08:00"
+    },
+    "tutorial-basics/deploy-your-site": {
+      "updated": "2026-09-28T22:15:09+08:00",
+      "created": "2026-09-28T22:15:09+08:00"
+    },
+    "tutorial-basics/markdown-features": {
+      "updated": "2026-09-28T22:15:09+08:00",
+      "created": "2026-09-28T22:15:09+08:00"
+    },
+    "tutorial-extras/manage-docs-versions": {
+      "updated": "2026-09-28T22:15:09+08:00",
+      "created": "2026-09-28T22:15:09+08:00"
+    },
+    "tutorial-extras/translate-your-site": {
+      "updated": "2026-09-28T22:15:09+08:00",
+      "created": "2026-09-28T22:15:09+08:00"
+    }
+  }
+}
