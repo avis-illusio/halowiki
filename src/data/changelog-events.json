@@ -5,7 +5,7 @@
       "type": "new",
       "date": "2026-09-28T22:15:09+08:00",
       "docKey": "tutorial-basics/congratulations",
-      "routePath": "/tutorial-basics/congratulations",
+      "routePath": "",
       "section": "tutorial-basics",
       "title": "Congratulations!"
     },
@@ -14,7 +14,7 @@
       "type": "new",
       "date": "2026-09-28T22:15:09+08:00",
       "docKey": "tutorial-basics/create-a-blog-post",
-      "routePath": "/tutorial-basics/create-a-blog-post",
+      "routePath": "",
       "section": "tutorial-basics",
       "title": "Create a Blog Post"
     },
@@ -23,7 +23,7 @@
       "type": "new",
       "date": "2026-09-28T22:15:09+08:00",
       "docKey": "tutorial-basics/create-a-document",
-      "routePath": "/tutorial-basics/create-a-document",
+      "routePath": "",
       "section": "tutorial-basics",
       "title": "Create a Document"
     },
@@ -32,7 +32,7 @@
       "type": "new",
       "date": "2026-09-28T22:15:09+08:00",
       "docKey": "tutorial-basics/create-a-page",
-      "routePath": "/tutorial-basics/create-a-page",
+      "routePath": "",
       "section": "tutorial-basics",
       "title": "Create a Page"
     },
@@ -41,7 +41,7 @@
       "type": "new",
       "date": "2026-09-28T22:15:09+08:00",
       "docKey": "tutorial-basics/deploy-your-site",
-      "routePath": "/tutorial-basics/deploy-your-site",
+      "routePath": "",
       "section": "tutorial-basics",
       "title": "Deploy your site"
     },
@@ -50,7 +50,7 @@
       "type": "new",
       "date": "2026-09-28T22:15:09+08:00",
       "docKey": "tutorial-basics/markdown-features",
-      "routePath": "/tutorial-basics/markdown-features",
+      "routePath": "",
       "section": "tutorial-basics",
       "title": "Markdown Features"
     },
@@ -59,7 +59,7 @@
       "type": "new",
       "date": "2026-09-28T22:15:09+08:00",
       "docKey": "tutorial-extras/manage-docs-versions",
-      "routePath": "/tutorial-extras/manage-docs-versions",
+      "routePath": "",
       "section": "tutorial-extras",
       "title": "Manage Docs Versions"
     },
@@ -68,45 +68,13 @@
       "type": "new",
       "date": "2026-09-28T22:15:09+08:00",
       "docKey": "tutorial-extras/translate-your-site",
-      "routePath": "/tutorial-extras/translate-your-site",
+      "routePath": "",
       "section": "tutorial-extras",
       "title": "Translate your site"
     }
   ],
   "pageDates": {
     "intro": {
-      "updated": "2026-09-28T22:15:09+08:00",
-      "created": "2026-09-28T22:15:09+08:00"
-    },
-    "tutorial-basics/congratulations": {
-      "updated": "2026-09-28T22:15:09+08:00",
-      "created": "2026-09-28T22:15:09+08:00"
-    },
-    "tutorial-basics/create-a-blog-post": {
-      "updated": "2026-09-28T22:15:09+08:00",
-      "created": "2026-09-28T22:15:09+08:00"
-    },
-    "tutorial-basics/create-a-document": {
-      "updated": "2026-09-28T22:15:09+08:00",
-      "created": "2026-09-28T22:15:09+08:00"
-    },
-    "tutorial-basics/create-a-page": {
-      "updated": "2026-09-28T22:15:09+08:00",
-      "created": "2026-09-28T22:15:09+08:00"
-    },
-    "tutorial-basics/deploy-your-site": {
-      "updated": "2026-09-28T22:15:09+08:00",
-      "created": "2026-09-28T22:15:09+08:00"
-    },
-    "tutorial-basics/markdown-features": {
-      "updated": "2026-09-28T22:15:09+08:00",
-      "created": "2026-09-28T22:15:09+08:00"
-    },
-    "tutorial-extras/manage-docs-versions": {
-      "updated": "2026-09-28T22:15:09+08:00",
-      "created": "2026-09-28T22:15:09+08:00"
-    },
-    "tutorial-extras/translate-your-site": {
       "updated": "2026-09-28T22:15:09+08:00",
       "created": "2026-09-28T22:15:09+08:00"
     }

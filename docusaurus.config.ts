@@ -9,7 +9,7 @@ export default defineWikiConfig(wiki, {
             logo: {
                 alt: 'HaloWiki',
                 src: 'img/logo.svg',
-                href: '/halowiki/intro/',   // 直接指向 intro，跳过中间跳转
+                href: '/halowiki/intro/',
             },
         },
     },
