@@ -5,9 +5,9 @@ export default defineWikiConfig(wiki, {
     baseUrl: '/halowiki/',
     themeConfig: {
         navbar: {
-            title: 'HaloWiki',
+            title: 'Halo Archive',
             logo: {
-                alt: 'HaloWiki',
+                alt: 'Halo Archive',
                 src: 'img/logo.svg',
                 href: '/halowiki/intro/',
             },
